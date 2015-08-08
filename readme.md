@@ -89,35 +89,3 @@ my_file1_ID, my_file2_ID, etc., where ID is your student number.
 However, your program is not allowed to alter other people's files.
 Furthermore, your program will not have access to files in other
 directories and have no access to internet.
-
-Submission
-
-Due time: 11:59pm on Sunday, Apr 19, 2015.
-
-Submit your project through our online assignment collection system
-https://course.cse.ust.hk/cass
-
-Submit it by making a zip archive of all your files. The archive need to include
-your bidder that is executable on lab 2 machines. Please name your
-archive as "ID.zip" and your bidder as "ID", where ID is your student number.
-
-Grading
-
-Your program will be graded according to how it was written
-and how well it competed against other programs. In addition to your
-program, you should also submit a report describing the algorithm
-used by your program. We will at least run your program pairwise against 
-each of the others including RANDOM with the following settings:
-
-1. unknown number of auctions;
-2. all bids are announced after each auction;
-3. the following sets of allowable bids:
-   [0,1]
-   {0.3,0.6} (prisoner's dilemma)
-   {0.3,0.6,0.7} (exactly one Nash equilibrium)
-   {0.3,0.6,0.9} (two Nash equilibria)
-   {0,1/100000,...,99999/100000,1}
-
-Notice that if your program sends in a bid that is not allowed, for
-example, bids 0 when the allowed bids are {0.3,0.6}, then you'll
-get -1 for that auction.
