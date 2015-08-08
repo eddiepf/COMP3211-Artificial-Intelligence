@@ -41,11 +41,11 @@ result.txt:
 initially empty, after each round, it will be appended with the following
 information:
 
-round $X
-$ID1, $Bid1
-$ID2, $Bid2
-...
-end of round $X
+    round $X
+    $ID1, $Bid1
+    $ID2, $Bid2
+    ...
+    end of round $X
 
 where $X is a number, $IDk is bidder k's ID, and $Bidk its bid.
 The first bidder, $ID1, is the winner of the round.
@@ -58,20 +58,20 @@ illegal bids or did not send in any bid, then there will be no winner
 in the round, and this will be indicated by "-" on the first line.
 For example, the following entries:
 
-round 2
-01, 0.3
-02, 0.2
-03, -
-04, -1
-end of round 2
+    round 2
+    01, 0.3
+    02, 0.2
+    03, -
+    04, -1
+    end of round 2
 
-round 3
--
-01, -
-02, -
-03, -
-04, -1
-end of round 3
+    round 3
+    -
+    01, -
+    02, -
+    03, -
+    04, -1
+    end of round 3
 
 mean that at round #2, bidder 01 was the winner with the winning bid 0.3,
 bidder 02 bid 0.2, bidder 03 did not sent in any bid, and bidder 04 sent
