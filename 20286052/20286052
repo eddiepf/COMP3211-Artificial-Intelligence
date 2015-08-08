@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec java -jar 20286052.jar
